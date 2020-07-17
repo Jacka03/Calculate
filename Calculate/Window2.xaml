@@ -1,0 +1,19 @@
+﻿<Window x:Class="Calculate.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculate"
+        mc:Ignorable="d"
+        Title="Window2" Height="250" Width="500">
+    <Grid>
+        <Button Content="修改" HorizontalAlignment="Left" Height="25" Margin="336,161,0,0" VerticalAlignment="Top" Width="89" Click="Button_Click"/>
+        <TextBox x:Name="min" HorizontalAlignment="Left" Height="22" Margin="199,68,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="106" />
+        <TextBox x:Name="max" HorizontalAlignment="Left" Height="22" Margin="199,107,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="106"/>
+        <Label Content="min" HorizontalAlignment="Left" Height="29" Margin="160,64,0,0" VerticalAlignment="Top" Width="34" Background="Gray"/>
+        <Label Content="max" HorizontalAlignment="Left" Height="29" Margin="160,103,0,0" VerticalAlignment="Top" Width="34" Background="Gray"/>
+        <TextBox x:Name="value" HorizontalAlignment="Left" Height="23" Margin="185,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="222" />
+        <Label x:Name="varName" Content="Label" HorizontalAlignment="Left" Height="23" Margin="146,10,0,0" VerticalAlignment="Top" Width="48"/>
+
+    </Grid>
+</Window>
