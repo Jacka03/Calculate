@@ -11,6 +11,8 @@
 ![20200720221741112](https://user-images.githubusercontent.com/51311844/133028296-1376ad66-b113-44b0-a08c-4434796a0624.png)
 
 将表达式分割成多个子表达式，然后先分别求解多个子表达式，最后根据子表达式的结果计算得到表达式的结果。
+![20200720221801566](https://user-images.githubusercontent.com/51311844/133028359-4734c2c8-d2d5-40c9-9c11-845a7349ebe1.png)
+
 ##### 表达式分割的依据：
 一个表达式Expression是若干项Item 之和；
 一个项Item可以是若干个因子Factor的乘积 除以另外若干因子Factor的乘积。
@@ -21,5 +23,8 @@
 可以输入一个新的变量，并且为它赋值。如输入  x=1  
 可以处理一个表达式，当表达式中的变量已经创建时，使用已经创建的变量的值，如果还没创建，就随机化生成一个值带进去运算。如 x+y-sin(x)中x=1,y随机初始化  
 可以改变已经创建的变量的值。 如 x=4  
+### 结果
+![20200720221844491](https://user-images.githubusercontent.com/51311844/133028363-bc1385a0-913f-49ba-92f7-bdb8168ca754.png)
+
 
 https://blog.csdn.net/weixin_43644231/article/details/107475426
